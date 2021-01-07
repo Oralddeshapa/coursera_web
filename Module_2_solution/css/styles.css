@@ -1,0 +1,78 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: "Bell MT", Times, serif;
+}
+
+h1 {
+	position: relative;
+	text-align: center;
+	margin: 20px;
+}
+
+.pseudo-box {
+	width: 33.33%;
+	position: relative;
+	float: left;
+}
+
+.box {
+	position: relative;
+	border: 3px solid black;
+	background: #bbbbbb;	
+	margin: 20px ;
+}
+
+.name {
+	position: relative;
+	background: #cc4455;
+	width: 100px;
+	margin-top : -3px;
+	margin-right: -3px;
+	border: 3px solid black;
+	float: right;
+	text-align: center;
+	font-size: 20px;
+}
+
+.text {
+	clear : right;
+	padding-top: 5px;
+	margin: 7px;
+}
+
+#name_1 {
+	background: #4455cc;
+}
+
+#name_2 {
+	background: #55cc44;
+}
+
+#name_3 {
+	background: #cc4455;
+}
+
+@media (max-width: 767px){
+
+	.pseudo-box {
+		width: 100%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.col-md-6 {
+		width: 50%;
+	}
+	.col-md-12 {
+		width: 100%;
+	}
+}
+
+@media (min-width: 992px) {
+
+	.col-lg-4 {
+		width: 33.33%;
+	}
+}
